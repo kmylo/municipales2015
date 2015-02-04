@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="" name="description">
+  <meta content="" name="ListaAbierta.org">
   <meta content="" name="author">
   <link href="../../favicon.ico" rel="icon">
 
@@ -26,17 +26,15 @@
   <![endif]-->
 
   <!-- Custom styles for this template -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:700,300,400" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Oswald:700,300,400" rel="stylesheet">
- 
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="elegant-font/code/style.css" rel="stylesheet">
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="css/form-elements.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/media-queries.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/carousel.css">
-    <link rel="stylesheet" href="css/base.css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:700,300,400" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Oswald:700,300,400" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/form-elements.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/media-queries.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/base.css">
 
   <!-- Bootstrap Form Helpers -->
   <link href="css/bootstrap-formhelpers.min.css" rel="stylesheet">
@@ -44,11 +42,10 @@
 </head>
   <!-- NAVBAR
 ================================================== -->
-<body>
+<body class="layout-home">
 <div class="wrapper">
   <div class="navbar-wrapper2">
     <div class="container-fluid">
-
       <nav class="navbar navbar-inverse2 navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
@@ -65,46 +62,12 @@
               </a>
             </h1>
           </div>
-
           <div class="bfh-selectbox bfh-languages pull-right" data-language="en_US" data-available="en_US,fr_CA,es_ES" data-flags="true" data-blank="false"></div>
-          <div class="hidden"><div class="navbar-collapse collapse " id="navbar">
-                      <ul class="nav navbar-nav pull-right">
-                        <li class="active">
-                          <a href="#">Home</a>
-                        </li>
-                        <li>
-                          <a href="#about">About</a>
-                        </li>
-                        <li>
-                          <a href="#contact">Contact</a>
-                        </li>
-                        <li class="dropdown">
-                          <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            Dropdown
-                            <span class="caret"></span>
-                          </a>
-                          <ul role="menu" class="dropdown-menu">
-                            <li>
-                              <a href="#">Action</a>
-                            </li>
-                            <li>
-                              <a href="#">Another action</a>
-                            </li>
-                            <li>
-                              <a href="#">Something else here</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li>
-                              <a href="#">Separated link</a>
-                            </li>
-                            <li>
-                              <a href="#">One more separated link</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div></div>
+          <div class="col-sm-2 header-social pull-right">
+                        <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square"></i></a>
+                    </div>
         </div>
       </nav>
 
@@ -220,16 +183,13 @@
         </h3>
       </div>
       <div class="col-md-4 pull-right">
-        <button class="btn btn-primary2" type="button">Comienza Aqu&iacute;</button></div>
+        <input type="submit" id="btnSiguiente" class="btn btn-primary btn-lg btn-block" data-loading-text="Cargando..." value="Comienza Aquí"></div>
     </div>
 
     <!-- /END THE FEATURETTES -->
 
   </div>
   </section>
-
-
-
 
   <div class="footer-wrapper">
       <div class="footer">
@@ -259,14 +219,8 @@ Creado a partir de la obra en  <a href="#">www.participa.info</a><div class=""><
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="js/ie10-viewport-bug-workaround.js"></script>
       <!-- Bootstrap Form Helpers -->
-    <script src="js/bootstrap-formhelpers.min.js"></script>
+  <script src="js/bootstrap-formhelpers.min.js"></script>
 
- 
-<script>
-  $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-    $($(e.target).attr('href')).find('.bfh-slider').val($($(e.target).attr('href')).find('.bfh-slider').val());
-  });
-</script>
 </div>
 </body>
 </html>
