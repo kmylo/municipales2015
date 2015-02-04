@@ -30,6 +30,7 @@
   <link href="http://fonts.googleapis.com/css?family=Oswald:700,300,400" rel="stylesheet">
 
   <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="elegant-font/code/style.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link href="css/form-elements.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -73,30 +74,22 @@
 
     <section class="section-2">
       <div class="container marketing">
-        <div class="headline">
-          <h2>Paso 1</h2>
-        </div><h3 class="featurette-headin"> <i>Regístrate y registra el municipio de la candidatura</i>
-        </h3>
+        
 
         <!-- START THE FEATURETTES -->
 
         
         <!--    division -->
-        
-       <div class="row featurette2">
+        <div class="row featurette2">
           <div class="widget-box">
-            <div class="widget-header widget-header-blue widget-header-flat hidden">
-              <h4 class="widget-title lighter">New Item Wizard</h4>
-
             
-            </div>
 
             <div class="widget-body">
               <div class="widget-main">
                 <div id="fuelux-wizard-container">
                   <div>
                     <ul class="steps">
-                      <li class="active" data-step="1">
+                      <li data-step="1" class="active">
                         <span class="step">1</span>
                         <span class="title">Regístrate y registra el municipio de la candidatura</span>
                       </li>
@@ -144,74 +137,101 @@
                     </ul>
                   </div>
 
-                  
+                  <hr>
 
-                  
-                </div>
+                  <div class="step-content pos-rel">
+                  <div data-step="1" class="step-pane active row">
+                      <h2 class="lighter block greenl col-xs-10 col-sm-offset-1">Regístrate y registra el municipio de la candidatura</h2><div class="col-xs-12 col-sm-offset-0"><div class="hr hr-dotted"></div></div>
 
-                
-                
-              </div>
-              <!-- /.widget-main --> </div>
-            <!-- /.widget-body --> </div>
-        </div><div class="row">
+                      <form id="sample-form" class="form-horizontal col-xs-12">
+                        <div class="form-group ">
+                          <label for="inputWarning" class=" col-sm-3 control-label no-padding-right">Nombre</label>
 
-  <div class="col-xs-9 col-xs-offset-2">                  
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputName" placeholder="Nombre"> 
+                            </span>
+                          </div>
+                          
+                        </div><div class="form-group ">
+                          <label class=" col-sm-3 control-label no-padding-right" for="inputWarning">Apellidos</label>
 
-                    <div class="center-block">
-                      <h3 class="header smaller lighter blue col-xs-10">Al iniciar el registro aceptas las siguientes condiciones:
-                  </h3><div class="">
-<ul class="list-unstyled sans col-sm-10">
-      <li>- Que formas parte un colectivo (partido político, coalición de partidos o agrupación de electores) que desea presentarse a los comicios municipales que se celebrarán el 24 de mayo de 2.015 y que para ello tienen la intención de registrarse en plazo y forma en la correspondiente junta electoral provincial.</li>
-    
-      <li>- Que has sido designado por dicho colectivo para efectuar el alta del municipio en la presente herramienta de voto de listas abiertas, no existiendo conflicto interno en cuanto a su uso.</li>
-    
-      <li>- Que dicho colectivo comprende y acepta las limitaciones del uso de la herramienta en cuanto al sistema de voto y su verificación.</li>
-    
-      <li>- Que dicho colectivo comprende y acepta que el proceso de verificación y aceptación de las candidaturas lo efectúa el administrador o administradora de la votación.</li>
-      
-      <li>- Que dicho colectivo comprende y acepta que el proceso de verificación y aceptación de las candidaturas lo efectúa el administrador o administradora de la votación.</li>
-    
-      <li>- Que mediante el acto de registro estás dando tu consentimiento expreso al tratamiento de los datos personales que aportas, según lo dispuesto en el artículo 6 de la LOPD y que podrás ejercer tus derechos en los términos dispuestos por el artículo 5 de la LOPD.</li>
-      
-      <li>- Que la información que aportas durante el registro es cierta, tanto los datos personales como las condiciones de la votación, de la candidatura y su programa. Ten en cuenta que no podrás modificarla más adelante, ya que los datos de registro se utilizan para identificarte como usuario único.</li>
-    </ul> </div>
-                    </div><div class="clearfix"></div><div class="col-xs-10">
-                      <div id="input-terms-group" class="checkbox-inline hidden">
-                        <label>
-                            <input type="checkbox" name="chkTerms" id="chkTerms" value="1">
-                            Acepto los <a target="_blank" href="/fe/sitesplus/sk_argentina/html/esp/terminos_condiciones.html">Términos y Condiciones</a> del servicio.                            <a data-original-title="Para utilizar nuestro servicio, debés aceptar las Condiciones." data-toggle="tooltip" tabindex="-1" href="#">(?)</a>
-                            <span class="help-block error-wrapper error-unchecked hide">Debés aceptar los Términos y Condiciones del servicio.</span>
-                        </label>
-                    </div><div class="widget-box">
-                        <div class="widget-header hidden">
-                          <h4 class="widget-title">jQuery UI Sliders</h4>
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" placeholder="Apellidos" id="inputName" class="width-100"> 
+                            </span>
+                          </div>
+                          
+                        </div><div class="form-group has-warning">
+                          <label class=" col-sm-3 control-label no-padding-right" for="inputWarning">Input with alerta</label>
+
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputWarning"> <i class="mine-icon fa fa-leaf"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">Alerta tooltip Ayuda</div>
                         </div>
 
-                        <div class="widget-body">
-                          <div class="widget-main text-center">
-<div class="">ACEPTAS ESTAS CONDICIONES</div><hr class="featurette-divider2"><div class="control-group">                   
-<label class="radio-inline">
-  <input type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions">Si</label>
-<label class="radio-inline">
-  <input type="radio" value="option2" id="inlineRadio2" name="inlineRadioOptions">No</label>
+                        <div class="form-group has-error">
+                          <label class="col-xs-12 col-sm-3 col-md-3 control-label no-padding-right" for="inputError">Input with error</label>
 
-</div>
-</div>
-                        </div><div class=" form-actions">
-                    <div class="text-center">
-                      <button type="button" class="btn btn-info">
-                        <i class="ace-icon fa fa-check bigger-110"></i>
-                        Continuar
-                      </button>
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputError"> <i class="mine-icon fa fa-times-circle"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">Error tooltip Ayuda</div>
+                        </div>
 
-                      &nbsp; &nbsp; &nbsp;
+                        <div class="form-group has-success">
+                          <label class="col-xs-12 col-sm-3 control-label no-padding-right" for="inputSuccess">Input con ok</label>
+
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputSuccess">
+                              <i class="mine-icon fa fa-check-circle"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">OK tooltip Ayuda</div>
+                        </div>
+
+                        <div class="form-group has-info">
+                          <label class="col-xs-12 col-sm-3 control-label no-padding-right" for="inputInfo">Input with info</label>
+
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputInfo">
+                              <i class="mine-icon fa fa-info-circle"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">Info tooltip Ayuda</div>
+                        </div>
+
+                        
+                      </form>
+
                       
                     </div>
                   </div>
-                      </div>
-                    </div>
-                  </div>  </div>
+                </div>
+
+                <hr>
+                <div class="wizard-actions">
+                  <button disabled="disabled" class="btn btn-prev">
+                    <i class="mine-icon fa fa-arrow-left"></i>
+                    Anterior
+                  </button>
+
+                  <button class="btn btn-success btn-next" data-last="Finish">
+                    Siguiente
+                    <i class="mine-icon fa fa-arrow-right icon-on-right"></i>
+                  </button>
+                </div>
+              </div>
+              <!-- /.widget-main --> </div>
+            <!-- /.widget-body --> </div>
+        </div>
 
         <!--    division -->
 
