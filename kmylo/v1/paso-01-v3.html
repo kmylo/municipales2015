@@ -30,6 +30,7 @@
   <link href="http://fonts.googleapis.com/css?family=Oswald:700,300,400" rel="stylesheet">
 
   <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="elegant-font/code/style.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link href="css/form-elements.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -74,18 +75,16 @@
     <section class="section-2">
       <div class="container marketing">
         <div class="headline">
-          <h2>Paso 1</h2>
-        </div><h3 class="featurette-headin"> <i>Regístrate y registra el municipio de la candidatura</i>
-        </h3>
+          <h2>Municipales 2015</h2>
+        </div>
 
         <!-- START THE FEATURETTES -->
 
-        
+        <hr class="featurette-divider2">
         <!--    division -->
-        
-       <div class="row featurette2">
+        <div class="row featurette2">
           <div class="widget-box">
-            <div class="widget-header widget-header-blue widget-header-flat hidden">
+            <div class="widget-header widget-header-blue widget-header-flat">
               <h4 class="widget-title lighter">New Item Wizard</h4>
 
             
@@ -144,74 +143,373 @@
                     </ul>
                   </div>
 
-                  
+                  <hr>
 
-                  
+                  <div class="step-content pos-rel">
+                    <div data-step="1" class="step-pane active">
+                      <h3 class="lighter block green">Enter the following information</h3>
+
+                      <form id="sample-form" class="form-horizontal">
+                        <div class="form-group has-warning">
+                          <label class="col-xs-12 col-sm-3 control-label no-padding-right" for="inputWarning">Input with warning</label>
+
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputWarning"> <i class="mine-icon fa fa-leaf"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">Warning tip help!</div>
+                        </div>
+
+                        <div class="form-group has-error">
+                          <label class="col-xs-12 col-sm-3 col-md-3 control-label no-padding-right" for="inputError">Input with error</label>
+
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputError"> <i class="mine-icon fa fa-times-circle"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">Error tip help!</div>
+                        </div>
+
+                        <div class="form-group has-success">
+                          <label class="col-xs-12 col-sm-3 control-label no-padding-right" for="inputSuccess">Input with success</label>
+
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputSuccess">
+                              <i class="mine-icon fa fa-check-circle"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">Success tip help!</div>
+                        </div>
+
+                        <div class="form-group has-info">
+                          <label class="col-xs-12 col-sm-3 control-label no-padding-right" for="inputInfo">Input with info</label>
+
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="block input-icon input-icon-right">
+                              <input type="text" class="width-100" id="inputInfo">
+                              <i class="mine-icon fa fa-info-circle"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">Info tip help!</div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="col-xs-12 col-sm-3 control-label no-padding-right" for="inputError2">Input with error</label>
+
+                          <div class="col-xs-12 col-sm-5">
+                            <span class="input-icon block">
+                              <input type="text" class="width-100" id="inputError2">
+                              <i class="mine-icon fa fa-times-circle red"></i>
+                            </span>
+                          </div>
+                          <div class="help-block col-xs-12 col-sm-reset inline">Error tip help!</div>
+                        </div>
+                      </form>
+
+                      <form method="get" id="validation-form" class="form-horizontal hide" novalidate="novalidate">
+                        <div class="form-group">
+                          <label for="email" class="control-label col-xs-12 col-sm-3 no-padding-right">Email Address:</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                              <input type="email" class="col-xs-12 col-sm-6" id="email" name="email"></div>
+                          </div>
+                        </div>
+
+                        <div class="space-2"></div>
+
+                        <div class="form-group">
+                          <label for="password" class="control-label col-xs-12 col-sm-3 no-padding-right">Password:</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                              <input type="password" class="col-xs-12 col-sm-4" id="password" name="password"></div>
+                          </div>
+                        </div>
+
+                        <div class="space-2"></div>
+
+                        <div class="form-group">
+                          <label for="password2" class="control-label col-xs-12 col-sm-3 no-padding-right">Confirm Password:</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                              <input type="password" class="col-xs-12 col-sm-4" id="password2" name="password2"></div>
+                          </div>
+                        </div>
+
+                        <div class="hr hr-dotted"></div>
+
+                        <div class="form-group">
+                          <label for="name" class="control-label col-xs-12 col-sm-3 no-padding-right">Company Name:</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                              <input type="text" class="col-xs-12 col-sm-5" name="name" id="name"></div>
+                          </div>
+                        </div>
+
+                        <div class="space-2"></div>
+
+                        <div class="form-group">
+                          <label for="phone" class="control-label col-xs-12 col-sm-3 no-padding-right">Phone Number:</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="input-group">
+                              <span class="input-group-addon">
+                                <i class="mine-icon fa fa-phone"></i>
+                              </span>
+
+                              <input type="tel" name="phone" id="phone"></div>
+                          </div>
+                        </div>
+
+                        <div class="space-2"></div>
+
+                        <div class="form-group">
+                          <label for="url" class="control-label col-xs-12 col-sm-3 no-padding-right">Company URL:</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                              <input type="url" class="col-xs-12 col-sm-8" name="url" id="url"></div>
+                          </div>
+                        </div>
+
+                        <div class="hr hr-dotted"></div>
+
+                        <div class="form-group">
+                          <label class="control-label col-xs-12 col-sm-3 no-padding-right">Subscribe to</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div>
+                              <label>
+                                <input type="checkbox" class="mine" value="1" name="subscription">
+                                <span class="lbl">Latest news and announcements</span>
+                              </label>
+                            </div>
+
+                            <div>
+                              <label>
+                                <input type="checkbox" class="mine" value="2" name="subscription">
+                                <span class="lbl">Product offers and discounts</span>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="space-2"></div>
+
+                        <div class="form-group">
+                          <label class="control-label col-xs-12 col-sm-3 no-padding-right">Gender</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div>
+                              <label class="line-height-1 blue">
+                                <input type="radio" class="mine" value="1" name="gender">
+                                <span class="lbl">Male</span>
+                              </label>
+                            </div>
+
+                            <div>
+                              <label class="line-height-1 blue">
+                                <input type="radio" class="mine" value="2" name="gender">
+                                <span class="lbl">Female</span>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="hr hr-dotted"></div>
+
+                        <div class="form-group">
+                          <label for="state" class="control-label col-xs-12 col-sm-3 no-padding-right">State</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="select2-container select2" id="s2id_state" style="width: 200px;">
+                              <a tabindex="-1" class="select2-choice select2-default" href="javascript:void(0)">
+                                <span class="select2-chosen" id="select2-chosen-1">Click to Choose...</span> <abbr class="select2-search-choice-close"></abbr>
+                                <span role="presentation" class="select2-arrow"> <b role="presentation"></b>
+                                </span>
+                              </a>
+                              <label class="select2-offscreen" for="s2id_autogen1">State</label>
+                              <input type="text" role="button" aria-haspopup="true" class="select2-focusser select2-offscreen" aria-labelledby="select2-chosen-1" id="s2id_autogen1">
+                              <div class="select2-drop select2-display-none select2-with-searchbox">
+                                <div class="select2-search">
+                                  <label class="select2-offscreen" for="s2id_autogen1_search">State</label>
+                                  <input type="text" aria-autocomplete="list" aria-expanded="true" role="combobox" class="select2-input" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off" aria-owns="select2-results-1" id="s2id_autogen1_search" placeholder=""></div>
+                                <ul role="listbox" class="select2-results" id="select2-results-1"></ul>
+                              </div>
+                            </div>
+                            <select data-placeholder="Click to Choose..." class="select2" name="state" id="state" style="width: 200px; display: none;" tabindex="-1" title="State">
+                              <option value="">&nbsp;</option>
+                              <option value="AL">Alabama</option>
+                              <option value="AK">Alaska</option>
+                              <option value="AZ">Arizona</option>
+                              <option value="AR">Arkansas</option>
+                              <option value="CA">California</option>
+                              <option value="CO">Colorado</option>
+                              <option value="CT">Connecticut</option>
+                              <option value="DE">Delaware</option>
+                              <option value="FL">Florida</option>
+                              <option value="GA">Georgia</option>
+                              <option value="HI">Hawaii</option>
+                              <option value="ID">Idaho</option>
+                              <option value="IL">Illinois</option>
+                              <option value="IN">Indiana</option>
+                              <option value="IA">Iowa</option>
+                              <option value="KS">Kansas</option>
+                              <option value="KY">Kentucky</option>
+                              <option value="LA">Louisiana</option>
+                              <option value="ME">Maine</option>
+                              <option value="MD">Maryland</option>
+                              <option value="MA">Massachusetts</option>
+                              <option value="MI">Michigan</option>
+                              <option value="MN">Minnesota</option>
+                              <option value="MS">Mississippi</option>
+                              <option value="MO">Missouri</option>
+                              <option value="MT">Montana</option>
+                              <option value="NE">Nebraska</option>
+                              <option value="NV">Nevada</option>
+                              <option value="NH">New Hampshire</option>
+                              <option value="NJ">New Jersey</option>
+                              <option value="NM">New Mexico</option>
+                              <option value="NY">New York</option>
+                              <option value="NC">North Carolina</option>
+                              <option value="ND">North Dakota</option>
+                              <option value="OH">Ohio</option>
+                              <option value="OK">Oklahoma</option>
+                              <option value="OR">Oregon</option>
+                              <option value="PA">Pennsylvania</option>
+                              <option value="RI">Rhode Island</option>
+                              <option value="SC">South Carolina</option>
+                              <option value="SD">South Dakota</option>
+                              <option value="TN">Tennessee</option>
+                              <option value="TX">Texas</option>
+                              <option value="UT">Utah</option>
+                              <option value="VT">Vermont</option>
+                              <option value="VA">Virginia</option>
+                              <option value="WA">Washington</option>
+                              <option value="WV">West Virginia</option>
+                              <option value="WI">Wisconsin</option>
+                              <option value="WY">Wyoming</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="space-2"></div>
+
+                        <div class="form-group">
+                          <label for="platform" class="control-label col-xs-12 col-sm-3 no-padding-right">Platform</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                              <select name="platform" id="platform" class="input-medium">
+                                <option value="">------------------</option>
+                                <option value="linux">Linux</option>
+                                <option value="windows">Windows</option>
+                                <option value="mac">Mac OS</option>
+                                <option value="ios">iOS</option>
+                                <option value="android">Android</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="space-2"></div>
+
+                        <div class="form-group">
+                          <label for="comment" class="control-label col-xs-12 col-sm-3 no-padding-right">Comment</label>
+
+                          <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                              <textarea id="comment" name="comment" class="input-xlarge"></textarea>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="space-8"></div>
+
+                        <div class="form-group">
+                          <div class="col-xs-12 col-sm-4 col-sm-offset-3">
+                            <label>
+                              <input type="checkbox" class="mine" id="agree" name="agree">
+                              <span class="lbl">I accept the policy</span>
+                            </label>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div data-step="2" class="step-pane">
+                      <div>
+                        <div class="alert alert-success">
+                          <button data-dismiss="alert" class="close" type="button">
+                            <i class="mine-icon fa fa-times"></i>
+                          </button> <strong><i class="mine-icon fa fa-check"></i>
+                            Well done!</strong> 
+                          You successfully read this important alert message.
+                          <br></div>
+
+                        <div class="alert alert-danger">
+                          <button data-dismiss="alert" class="close" type="button">
+                            <i class="mine-icon fa fa-times"></i>
+                          </button> <strong><i class="mine-icon fa fa-times"></i>
+                            Oh snap!</strong> 
+                          Change a few things up and try submitting again.
+                          <br></div>
+
+                        <div class="alert alert-warning">
+                          <button data-dismiss="alert" class="close" type="button">
+                            <i class="mine-icon fa fa-times"></i>
+                          </button>
+                          <strong>Warning!</strong>
+                          Best check yo self, you're not looking too good.
+                          <br></div>
+
+                        <div class="alert alert-info">
+                          <button data-dismiss="alert" class="close" type="button">
+                            <i class="mine-icon fa fa-times"></i>
+                          </button>
+                          <strong>Heads up!</strong>
+                          This alert needs your attention, but it's not super important.
+                          <br></div>
+                      </div>
+                    </div>
+
+                    <div data-step="3" class="step-pane">
+                      <div class="center">
+                        <h3 class="blue lighter">This is step 3</h3>
+                      </div>
+                    </div>
+
+                    <div data-step="4" class="step-pane">
+                      <div class="center">
+                        <h3 class="green">Congrats!</h3>
+                        Your product is ready to ship! Click finish to continue!
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-                
-                
+                <hr>
+                <div class="wizard-actions">
+                  <button class="btn btn-prev" disabled="disabled">
+                    <i class="mine-icon fa fa-arrow-left"></i>
+                    Prev
+                  </button>
+
+                  <button data-last="Finish" class="btn btn-success btn-next">
+                    Next
+                    <i class="mine-icon fa fa-arrow-right icon-on-right"></i>
+                  </button>
+                </div>
               </div>
               <!-- /.widget-main --> </div>
             <!-- /.widget-body --> </div>
-        </div><div class="row">
-
-  <div class="col-xs-9 col-xs-offset-2">                  
-
-                    <div class="center-block">
-                      <h3 class="header smaller lighter blue col-xs-10">Al iniciar el registro aceptas las siguientes condiciones:
-                  </h3><div class="">
-<ul class="list-unstyled sans col-sm-10">
-      <li>- Que formas parte un colectivo (partido político, coalición de partidos o agrupación de electores) que desea presentarse a los comicios municipales que se celebrarán el 24 de mayo de 2.015 y que para ello tienen la intención de registrarse en plazo y forma en la correspondiente junta electoral provincial.</li>
-    
-      <li>- Que has sido designado por dicho colectivo para efectuar el alta del municipio en la presente herramienta de voto de listas abiertas, no existiendo conflicto interno en cuanto a su uso.</li>
-    
-      <li>- Que dicho colectivo comprende y acepta las limitaciones del uso de la herramienta en cuanto al sistema de voto y su verificación.</li>
-    
-      <li>- Que dicho colectivo comprende y acepta que el proceso de verificación y aceptación de las candidaturas lo efectúa el administrador o administradora de la votación.</li>
-      
-      <li>- Que dicho colectivo comprende y acepta que el proceso de verificación y aceptación de las candidaturas lo efectúa el administrador o administradora de la votación.</li>
-    
-      <li>- Que mediante el acto de registro estás dando tu consentimiento expreso al tratamiento de los datos personales que aportas, según lo dispuesto en el artículo 6 de la LOPD y que podrás ejercer tus derechos en los términos dispuestos por el artículo 5 de la LOPD.</li>
-      
-      <li>- Que la información que aportas durante el registro es cierta, tanto los datos personales como las condiciones de la votación, de la candidatura y su programa. Ten en cuenta que no podrás modificarla más adelante, ya que los datos de registro se utilizan para identificarte como usuario único.</li>
-    </ul> </div>
-                    </div><div class="clearfix"></div><div class="col-xs-10">
-                      <div id="input-terms-group" class="checkbox-inline hidden">
-                        <label>
-                            <input type="checkbox" name="chkTerms" id="chkTerms" value="1">
-                            Acepto los <a target="_blank" href="/fe/sitesplus/sk_argentina/html/esp/terminos_condiciones.html">Términos y Condiciones</a> del servicio.                            <a data-original-title="Para utilizar nuestro servicio, debés aceptar las Condiciones." data-toggle="tooltip" tabindex="-1" href="#">(?)</a>
-                            <span class="help-block error-wrapper error-unchecked hide">Debés aceptar los Términos y Condiciones del servicio.</span>
-                        </label>
-                    </div><div class="widget-box">
-                        <div class="widget-header hidden">
-                          <h4 class="widget-title">jQuery UI Sliders</h4>
-                        </div>
-
-                        <div class="widget-body">
-                          <div class="widget-main text-center">
-<div class="">ACEPTAS ESTAS CONDICIONES</div><hr class="featurette-divider2"><div class="control-group">                   
-<label class="radio-inline">
-  <input type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions">Si</label>
-<label class="radio-inline">
-  <input type="radio" value="option2" id="inlineRadio2" name="inlineRadioOptions">No</label>
-
-</div>
-</div>
-                        </div><div class=" form-actions">
-                    <div class="text-center">
-                      <button type="button" class="btn btn-info">
-                        <i class="ace-icon fa fa-check bigger-110"></i>
-                        Continuar
-                      </button>
-
-                      &nbsp; &nbsp; &nbsp;
-                      
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>  </div>
+        </div>
 
         <!--    division -->
 

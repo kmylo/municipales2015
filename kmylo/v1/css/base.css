@@ -150,17 +150,3 @@ section .container
     line-height:30px;
     text-align:center
 }
-
-.sans
-{
-      font-family: "Open Sans",sans-serif;
-}
-
-.list-unstyled.sans > li {
-    line-height: 17px;
-    margin-bottom: 5px;
-}
-
-.container.marketing  {
-  padding-bottom: 40px;
-}
